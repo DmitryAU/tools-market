@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+body {
+  background-color: #fefaf6;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: #cfdBdc;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first {
+  margin-right: auto;
+}
+
+.buton {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #888888;
+}
+
+button {
+
+  margin: 10px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  background-color: #888888;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btns {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.buttonText {
+  margin: 0px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
+  background: #888888;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  background-color: #E9E8E8;
+}
+
+.labelOne {
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+ margin-left: 20px;
+}
+
+.ru {
+  margin-top: -15px;
+  font-size: 105px;
+}
+
+.ls {
+  margin-top: -15px;
+  font-size: 105px;
+}
+
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1% 3%;
+}
+
+
+.containerImage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.main {
+  text-align: center;
+  width: 500px;
+}
+
+.near {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin: 30px 5px ;
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.btnI {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  background: none;
+  color: black;
+  font-size: 30px;
+}
+
+.info {
+text-align: center;
+}
+
+.pict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+}
+
+.text {
+ font-size: 25px;
 }
